@@ -1,0 +1,57 @@
+/* UNIVERSITY OF MINNESOTA WEB TEMPLATE PRINT STYLESHEET */
+html {background-color:#FFFFFF;color:#000000;}
+
+/* Styles set to display:none */
+
+body.center {background : #fff; background-color : #fff; font-family: "Times New Roman", Times, serif; font-size: 12pt; color:black; width: 7in;}
+
+.main_head {display: none}
+#main_head {display: none}
+
+#campus_links, #search_area, #header, #header_sub, #left_nav, #unit_footer_tan, #unit_footer_gray, #footer_right{display: none;}
+
+/* Positioning wordmark and unit contact information */
+.leftprint {display: block; padding-bottom: 10px;}
+
+.rightprint {display: block; text-align: right; padding-bottom: 10px;}
+
+/* Cover template background image with a white background */
+
+#bg, #bg246, #bg363, #bg354 { background-image: url(../../assets/img/white.gif); background-repeat: repeat; border-top: 3px solid #e4e4e4;width:700px; float:none;}
+
+/* Set width of grids for print */
+
+.container_12 { border-bottom: none; background-color: #FFFFFF; background-image:none; width:auto;}
+
+.container_12 .grid_6 { width: 4in; text-align:left;}
+
+.container_12 .grid_4 { width: 3in;}
+
+/* Set style for footer */
+
+#footer_inner { padding:5px 0 0 0; font-size: 0.87em; width:700px; background: #FFFFFF;}
+
+/*Hide print fields / Accessibility jumps */
+
+#hiddenContent { 
+	position:absolute;
+	top:-500px;
+	left:-500px;
+	width:0;
+	height:0;
+	overflow:hidden;
+	}
+
+.hide { 
+	position:absolute;
+	top:-500px;
+	left:-500px;
+	width:0;
+	height:0;
+	overflow:hidden;
+	}
+
+
+.showprint {
+	display: none;
+}

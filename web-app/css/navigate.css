@@ -1,0 +1,85 @@
+
+#leftnav {
+    width: 20em;
+    float: left;
+    margin: 0;
+    padding; 0.5em;
+}
+
+#content {
+    margin-left: 22em;
+}
+
+.navItem {
+    width: 20em;
+	background-repeat: no-repeat;
+	min-height: 48px;
+	vertical-align: middle;
+	padding-left: 1em;
+	padding-top: 0;
+	padding-bottom: 0.5em;
+}
+
+.navItem ul.root {
+	max-height: 12em;
+	overflow: auto;
+}
+
+
+.navItem h1 {
+	height: 1.8em;
+	padding-left: 48px;
+}
+
+.search {
+	background-color: #eeeeee;
+	background-image: url(/ContactGrails/images/classes/search.png);
+}
+
+.address {
+	background-color: #ffff8e;
+	background-image: url(/ContactGrails/images/classes/address.png);
+}
+
+.uri {
+	background-color: #d3a1f3;
+	background-image: url(/ContactGrails/images/classes/email.png);
+}
+
+.phone {
+	background-color: #a7fff6;
+	background-image: url(/ContactGrails/images/classes/phone.png);
+}
+
+
+.body {
+    margin-top: 1em;
+}
+
+.nonefound {
+	background-color: #fcfcfc;
+	background-image: url(/ContactGrails/images/classes/search.png);
+	min-height: 21em;
+}
+
+#groupMemberships {
+	width: 46%;
+	float:left;
+}
+
+#orgMemberships {
+	width: 46%;
+	float:right;
+}
+
+.editentity {
+    font-size: 0.8em; 
+      
+}
+
+.photomatte {
+    background-color: #000000;
+    float: right;
+    margin-top: -2em;
+}
+
