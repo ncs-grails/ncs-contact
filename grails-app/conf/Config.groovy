@@ -1,7 +1,4 @@
 grails.config.locations = [ 
-	"file:/etc/grails/active-directory.groovy",
-	"file:/etc/grails/shibboleth.groovy",
-	"file:/etc/grails/mock-config.groovy",
 	"file:/etc/grails/logging-config.groovy",
 	"file:/etc/grails/mail-config.groovy",
 	"file:/etc/grails/zpfour-config.groovy",
