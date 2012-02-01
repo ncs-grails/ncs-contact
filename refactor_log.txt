@@ -1,0 +1,11 @@
+Starting Process at Tue Jan 31 19:53:20 CST 2012
+Updating Grails from 1.1.1 to 1.3.7
+Updating Config.groovy
+Moving DataSource.groovy to /home/AD/ajz/development/grails/ncs/config/development/ContactGrails-config.groovy
+Adding security plugin dependencies to grails-app/conf/BuildConfig.groovy
+./grails-app/controllers/RoleController.groovy	Updating	Definition	def springSecurityService
+./grails-app/controllers/RequestmapController.groovy	Updating	Definition	def springSecurityService
+./grails-app/controllers/UserController.groovy	Updating	Definition	def springSecurityService
+./grails-app/controllers/UserController.groovy	Updating	DefinitionuthenticateService.principal
+Starting Process at Tue Jan 31 19:53:49 CST 2012
+Starting Process at Tue Jan 31 19:54:52 CST 2012
